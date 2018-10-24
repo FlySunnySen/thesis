@@ -1,0 +1,21 @@
+<table id="myTable">
+				<tr>
+					<td colspan="4" style="color: red;">其他教研室的学生</td>
+				</tr>
+				<tr>
+					<td>学号</td>
+					<td>指导老师</td>
+					<td>姓名</td>
+					<td>操作</td>
+				</tr>
+				<foreach name="list" item="vo">
+					<tr>
+						<td>{$vo.student_Snum}</td>
+						<td>{$vo.Tname}</td>
+						<td>{$vo.student_name}</td>
+						<td><a href="__CONTROLLER__/addStudent/Snum/{$vo.student_Snum}/Sname/{$vo.student_name}/defense_group/{$defense_group}">手动添加</a></td>
+					</tr>				
+				</foreach>
+				
+			</table>
+			<div style="margin-top: 15px;margin-bottom: 20px;">{$page}</div>

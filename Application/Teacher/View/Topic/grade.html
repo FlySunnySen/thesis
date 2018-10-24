@@ -1,0 +1,139 @@
+<extend name="Public::layout" />
+
+<block name="head">
+	<title>成绩单</title>
+</block>
+<block name="main">
+	<header>
+					<hgroup>
+						<h1>成绩单</h1>
+						<h2>学号：{$Snum}  ---   学生姓名:{$Sname}</h2>
+					</hgroup>
+
+				</header>
+					
+			
+				<div class="content">
+			    <button>导出成绩单</button>	  
+					<table id="myTable">
+					    <tr>
+					    	<td colspan="5">
+					    	指导老师评分（满分60分）
+					    	</td>
+					    </tr>
+						<tr>
+							<td>序号</td>
+							<td>考核项目</td>
+							<td>满分</td>
+							<td>得分</td>
+							<td>评语</td>
+							
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>工作态度与纪律</td>
+							<td>10</td>
+							<td>{$Ggrade1}</td>
+							<td rowspan="5">
+                    <textarea name="txtGuidComment" rows="8" cols="20" id="txtGuidComment" style="width:95%;">{$Gtext}
+</textarea>
+                            </td>  
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>基本理论、专业知识、基本技能和外语水平</td>
+							<td>10</td>
+							<td>{$Ggrade2}</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>完成情况与水平、工作量及完成质量</td>
+							<td>20</td>
+							<td>{$Ggrade3}</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>独立工作能力、分析解决问题和实际工作能力</td>
+							<td>15</td>
+							<td>{$Ggrade4}</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>创新能力</td>
+							<td>5</td>
+							<td>{$Ggrade5}</td>
+						</tr>
+					    <tr>
+					    	 <td colspan="5">
+
+					    	2.评阅教师评分（满分20分）评阅人：
+					    	</td>
+					    </tr>
+					    <tr>
+					    	<td>序号</td>
+							<td>考核项目</td>
+							<td>满分</td>
+							<td>得分</td>
+							<td>评语</td>
+					    </tr>
+					    <tr>
+					    	<td>6</td>
+					    	<td>质量(正确性、条理性、创造性和实用性）</td>
+					    	<td>12</td>
+					    	<td>{$Pgrade1}</td>
+					    	 <td rowspan="2">
+			                     <textarea name="txtGuidComment" rows="7" cols="20" id="txtGuidComment" style="width:95%;">{$Ptext}
+</textarea>
+			
+			                </td>      
+					    </tr>
+					     <tr>
+					    	<td>7</td>
+					    	<td>成果的技术水平（理论、分析、计算、实验和实物性能）</td>
+					    	<td>8</td>
+					    	<td>{$Pgrade2}</td>
+					    </tr>
+					    <tr>
+					    	<td colspan="5">
+					    	  3.答辩组教师评分（满分20分）	
+					    	</td>
+					    </tr>
+					     <tr>
+					    	<td>序号</td>
+							<td>考核项目</td>
+							<td>满分</td>
+							<td>得分</td>
+							<td>评语</td>
+					    </tr>
+					    <tr>
+					    	<td>8</td>
+					    	<td>完成任务情况与水平</td>
+					    	<td>5</td>
+					    	<td>{$Rgrade1}</td>
+					    	<td rowspan="4">
+				                    <textarea name="txtTalkComment" rows="8" cols="20" id="txtTalkComment" style="width:95%;">{$Rtext}
+									</textarea>
+					        </td>               
+
+					    </tr>
+					     <tr>
+					    	<td>9</td>
+					    	<td>论文、设计任务书、图纸与实物的质量</td>
+					    	<td>5</td>
+					    	<td>{$Rgrade2}</td>
+					    </tr>
+					     <tr>
+					    	<td>10</td>
+					    	<td>答辩时讲述的系统性和语言表达能力</td>
+					    	<td>5</td>
+					    	<td>{$Rgrade3}</td>
+					    </tr>
+					     <tr>
+					    	<td>11</td>
+					    	<td>回答问题的正确性</td>
+					    	<td>5</td>
+					    	<td>{$Rgrade4}</td>
+					    </tr>
+				</div>
+	
+</block>

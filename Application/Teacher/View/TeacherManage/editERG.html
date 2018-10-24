@@ -1,0 +1,20 @@
+<extend name="Public:layout"/>
+<block name="head">
+	<title>教研室修改</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>
+				教研室修改
+			</h1>
+			<h2>当前教研室:   {$ERG_name}</h2>
+		</hgroup>
+	</header>
+	<br />
+	<form action="__CONTROLLER__/saveInfo" method="post">
+		<input type="hidden" name="ERG_group" value="{$ERG_group}" />
+		<input name="ERG_name" value="{$ERG_name}" />
+		<button>修改信息</button>
+	</form>
+</block>

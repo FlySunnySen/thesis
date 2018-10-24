@@ -1,0 +1,28 @@
+<extend name="Public:layout"/>
+<block name="head">
+	<title>修改密码</title>
+</block>
+<block name="head">
+	<style>
+		.field-wrap input{
+		width:200px;
+		margin-left: 20px;
+	}
+	
+	</style>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>请输入新密码</h1>
+		</hgroup>
+	</header>
+	<form action="__CONTROLLER__/changePwd" class="field-wrap" method="post">
+		<br />
+		<input type="hidden" value="{$Tnum}" name="Tnum" />		
+		<input type="password" name="pwd" placeholder="请输入新密码" /><br />
+	
+		<input type="submit" class="page-btn" value="确认">
+		
+	</form>
+</block>

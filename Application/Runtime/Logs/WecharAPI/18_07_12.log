@@ -1,0 +1,125 @@
+[ 2018-07-12T13:25:50+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_teacher` [ RunTime:0.004576s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_teacher` LIMIT 1   [ RunTime:0.000858s ]
+SQL: SELECT * FROM `think_teacher`  [ RunTime:0.000572s ]
+
+[ 2018-07-12T13:25:51+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+NOTIC: [2048] Declaration of WecharAPI\Controller\PInformationController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_information` [ RunTime:0.003913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_information` LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `think_information`  [ RunTime:0.000303s ]
+
+[ 2018-07-12T13:25:52+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_teacher` [ RunTime:0.002930s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_teacher` LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `think_teacher`  [ RunTime:0.000310s ]
+
+[ 2018-07-12T13:25:52+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_erg` [ RunTime:0.005905s ]
+SQL: SELECT * FROM `think_erg`  [ RunTime:0.000233s ]
+
+[ 2018-07-12T13:25:53+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_defense` [ RunTime:0.005125s ]
+SQL: SHOW COLUMNS FROM `think_defensestudent` [ RunTime:0.003776s ]
+SQL: SELECT think_defense.defense_group,think_defense.year,think_defense.ERG_group,GROUP_CONCAT(DISTINCT think_teacher.Tname) AS TEA,GROUP_CONCAT(DISTINCT Sname) AS STU,think_admin.Tname AS admin,think_admin.Tnum AS adminnum,`class`,`time` FROM `think_defensestudent` right join think_defense  ON  think_defensestudent.defense_group = think_defense.defense_group INNER JOIN think_defenseteacher ON think_defenseteacher.defense_group = think_defense.defense_group INNER JOIN think_admin ON think_admin.Tnum = think_defense.admin INNER JOIN think_teacher ON think_defenseteacher.Tnum = think_teacher.Tnum  WHERE ( think_defense.year=2018 AND think_defense.status=1 ) GROUP BY think_defense.defense_group  [ RunTime:0.011707s ]
+SQL: SHOW COLUMNS FROM `think_topic` [ RunTime:0.003580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_topic` INNER JOIN think_apply ON think_apply.topic_Cnum = think_topic.Cnum INNER JOIN think_student ON think_student.Snum = think_apply.student_Snum INNER JOIN think_teacher ON think_teacher.Tnum = think_apply.Tnum  WHERE think_topic.year = '2018' AND think_topic.status = 1 AND think_apply.status = 1 AND `denfense_allocation` = 0 AND `denfense_status` = '1' LIMIT 1   [ RunTime:0.007354s ]
+
+[ 2018-07-12T13:25:55+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_defense` [ RunTime:0.003211s ]
+SQL: SHOW COLUMNS FROM `think_defensestudent` [ RunTime:0.003245s ]
+SQL: SELECT think_defense.defense_group,think_defense.year,think_defense.ERG_group,GROUP_CONCAT(DISTINCT think_teacher.Tname) AS TEA,GROUP_CONCAT(DISTINCT Sname) AS STU,think_admin.Tname AS admin,think_admin.Tnum AS adminnum,`class`,`time` FROM `think_defensestudent` right join think_defense  ON  think_defensestudent.defense_group = think_defense.defense_group INNER JOIN think_defenseteacher ON think_defenseteacher.defense_group = think_defense.defense_group INNER JOIN think_admin ON think_admin.Tnum = think_defense.admin INNER JOIN think_teacher ON think_defenseteacher.Tnum = think_teacher.Tnum  WHERE ( think_defense.year=2018 AND think_defense.status=1 ) GROUP BY think_defense.defense_group  [ RunTime:0.008301s ]
+SQL: SHOW COLUMNS FROM `think_topic` [ RunTime:0.003010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_topic` INNER JOIN think_apply ON think_apply.topic_Cnum = think_topic.Cnum INNER JOIN think_student ON think_student.Snum = think_apply.student_Snum INNER JOIN think_teacher ON think_teacher.Tnum = think_apply.Tnum  WHERE think_topic.year = '2018' AND think_topic.status = 1 AND think_apply.status = 1 AND `denfense_allocation` = 0 AND `denfense_status` = '1' LIMIT 1   [ RunTime:0.006133s ]
+
+[ 2018-07-12T13:25:56+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_erg` [ RunTime:0.003108s ]
+SQL: SELECT * FROM `think_erg`  [ RunTime:0.000239s ]
+
+[ 2018-07-12T13:25:57+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_teacher` [ RunTime:0.003100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_teacher` LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `think_teacher`  [ RunTime:0.000379s ]
+
+[ 2018-07-12T13:25:57+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [2048] Declaration of WecharAPI\Controller\PInformationController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_information` [ RunTime:0.003560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_information` LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `think_information`  [ RunTime:0.000146s ]
+
+[ 2018-07-12T13:25:59+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [2048] Declaration of WecharAPI\Controller\PInformationController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp64\www\biye\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_information` [ RunTime:0.002701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_information` LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `think_information`  [ RunTime:0.000160s ]
+

@@ -1,0 +1,395 @@
+[ 2018-06-02T12:30:33+08:00 ] ::1 /biye/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2018-06-02T12:30:36+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-06-02T12:30:36+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2018-06-02T12:35:01+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-02T12:35:01+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+
+[ 2018-06-02T12:37:42+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-06-02T12:37:42+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-06-02T12:40:21+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2018-06-02T12:40:21+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-06-02T12:40:22+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-06-02T12:40:22+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-06-02T12:40:23+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-06-02T12:40:23+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-06-02T12:40:23+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-06-02T12:40:23+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-06-02T12:40:24+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-06-02T12:40:24+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+
+[ 2018-06-02T12:40:25+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-06-02T12:40:25+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+
+[ 2018-06-02T12:40:35+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.38770185280990554
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2018-06-02T12:40:36+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.9707871225078805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2018-06-02T12:40:42+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.44880555013273227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-06-02T12:40:43+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.10336640824193133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-06-02T12:40:44+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.04589264029747764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2018-06-02T12:40:45+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.7873725809891029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2018-06-02T12:40:46+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.3611851739632548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-06-02T12:40:47+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.5089163461161698
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-06-02T12:40:48+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.31114485803074066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-06-02T12:40:48+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.0555437250862022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-06-02T12:40:49+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.011230242898210507
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-06-02T12:40:50+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.42060973038587635
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-06-02T12:40:51+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.5051910344969047
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2018-06-02T12:40:52+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.9267090190163737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-06-02T12:41:00+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.9775564311007475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2018-06-02T12:41:01+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.36106385624965
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-06-02T12:41:48+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2018-06-02T12:41:49+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+
+[ 2018-06-02T12:41:53+08:00 ] ::1 /biye/index.php/Home/Login/getVerify/0.8048195521193529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-06-02T12:41:57+08:00 ] ::1 /biye/index.php/home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-06-02T12:41:58+08:00 ] ::1 /biye/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2018-06-02T12:41:59+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-06-02T12:42:05+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-06-02T12:43:07+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-06-02T12:44:39+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-06-02T12:44:56+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-06-02T12:46:02+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2018-06-02T12:46:03+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-06-02T12:46:05+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2018-06-02T12:46:06+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-06-02T12:46:07+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-06-02T12:46:08+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-06-02T13:03:12+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-06-02T13:03:13+08:00 ] ::1 /biye/index.php/Home/topic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2018-06-02T13:03:51+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-06-02T13:03:53+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-06-02T13:04:02+08:00 ] ::1 /biye/index.php/Home/Grade/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-06-02T13:04:03+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-06-02T13:04:04+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-06-02T13:04:05+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-06-02T13:04:07+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-06-02T13:04:09+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-06-02T13:04:33+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-06-02T13:05:23+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-06-02T13:05:26+08:00 ] ::1 /biye/index.php/Home/topic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2018-06-02T13:05:39+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-06-02T13:05:41+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-06-02T13:05:43+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-06-02T13:05:44+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-06-02T13:05:45+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2018-06-02T13:05:47+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-06-02T13:05:51+08:00 ] ::1 /biye/index.php/Home/topic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2018-06-02T13:06:06+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2018-06-02T13:06:07+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-06-02T13:06:09+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+
+[ 2018-06-02T13:06:11+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-06-02T13:06:13+08:00 ] ::1 /biye/index.php/Home/topic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2018-06-02T13:14:48+08:00 ] ::1 /biye/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-06-02T13:14:49+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-06-02T13:14:49+08:00 ] ::1 /biye/index.php/Home/Login/getVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+

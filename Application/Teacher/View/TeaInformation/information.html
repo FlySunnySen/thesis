@@ -1,0 +1,85 @@
+<extend name="Public:layout"/>
+<block name="head">
+	<title>修改教师信息</title>
+	<style>
+		.field-wrap input,select{
+		width:200px;
+		margin-left: 20px;
+	}
+	.field-wrap span{
+		width: 100px;
+		font-weight: bold;
+		font-size: 15px;
+		display: inline-block;
+	}
+	</style>
+</block>
+<block name="main">
+	<div class="content">
+		
+			
+		<form id="information">
+			
+			
+			    <div class="field-wrap">
+					<span>工号:</span>
+					<input type="text" value="{$Tinfo.Tnum}" name="Tnum" readonly="readonly" placeholder="请输入工号"/>
+				</div>
+			    
+				<div class="field-wrap">
+					<span>教师名称:</span>
+					<input  type="text" value="{$Tinfo.Tname}" name="Tname" placeholder="请输入姓名"/>
+				</div>
+				
+				
+				<div class="field-wrap">
+					<span>手机号码:</span>	
+					<input type="text" value="{$Tinfo.phone}" name="phone"  placeholder="请输入手机号码"/>
+				</div>
+				<div class="field-wrap">
+					<span>QQ号码:</span>
+					<input type="text" value="{$Tinfo.qq}" name="qq" placeholder="请输入QQ号码"/>
+				</div>
+				<div class="field-wrap">
+					<span>邮箱:</span>
+					<input type="text" value="{$Tinfo.email}" name="email" placeholder="请输入邮箱"/>
+				</div>
+										
+				<div class="field-wrap ">
+					<span>个人简介:</span>
+					<textarea class="post" rows="5" name="Ttext" placeholder="请输入个人简介">{$Tinfo.Ttext}</textarea>
+				</div>
+				<button style="font-weight: bold;" id="save"  class="green">修改</button>
+				<button style="font-weight: bold;"  class="">取消</button>
+			
+		</form>
+		<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>		
+		<script type="text/javascript">
+		$(function() {
+			$('#save').bind('click',function() {				
+				var data = $('#information').serialize();			
+				
+				$.ajax({
+						    async : false,
+						    cache : false,
+						    data  : data,					    
+						    type : 'POST',
+						    url : '__CONTROLLER__/saveInformation',
+						    error : function() {
+						        alert('修改失败 ');
+						    },
+						    success : function(data) {
+						    	if(data==true){
+						    		alert('修改成功');	
+						    		window.location.href="__MODULE__/index";
+						       }else{
+						       	    alert(data);
+						       }
+						    }
+						});
+				return false;
+			})
+		})
+		</script>
+	</div>
+</block>

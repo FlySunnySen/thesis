@@ -1,0 +1,82 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>添加评阅评分</title>
+</block>
+<block name="main">
+<br/><br/><br/><br/>
+<form method="post" id="Pgrade">
+<br/><br/>
+	<foreach name="message" item="v"> <input type="hidden"
+		name="Snum" value="{$v.student_Snum}" />
+	<div>课题名称:{$v.Cname}</div>
+	<br />
+	<span>学号:{$v.student_Snum}</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>姓名:{$v.student_name}</span>
+	<br />
+	<br />
+	<table id="myTable">
+		<tr>
+			<td colspan="6">
+				<h2 style="text-align: center">毕业论文（设计）成绩考核表</h2>
+			</td>
+		</tr>
+		
+		<tr style="background-color: #c0c0c0">
+			<td colspan="3">2.评阅教师评分 (满分20分)</td>
+			<td colspan="4"><span style="color: #FF0000"><strong>评阅人:{$v.Pteacher}</strong></span></td>
+		</tr>
+		<tr style="background-color: #c0c0c0">
+			<td>序号</td>
+			<td>考核项目</td>
+			<td>满分</td>
+			<td>得分</td>
+			<td>评语</td>		
+		
+			<td></td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>质量(正确性、条理性、创造性和实用性)</td>
+			<td>12</td>
+			<td><input type="text" name="Pgrade1" class="Pgrade1" size="1"
+				value="{$score.Pgrade1}" /></td>
+			<td rowspan="2"><textarea name="Ptext" id="Ptext" rows="6">{$score.Ptext}</textarea></td>
+		
+			<td rowspan="2">
+				<button onclick="savedScore(event)">保存成功</button>
+				
+			</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>成果的技术水平(理论、分析、计算、实践和实物性能)</td>
+			<td>8</td>
+			<td><input type="text" name="Pgrade2" class="Pgrade2" size="1"
+				value="{$score.Pgrade2}" /></td>
+		</tr>
+		
+	</table>
+</form>
+</foreach>
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+	//保存分数
+	function savedScore(event) {
+		event.preventDefault();
+		var Pgrade1 = $(".Pgrade1").val();
+		var Pgrade2 = $(".Pgrade2").val();
+		if (!Pgrade1.match(/^([0-9]|(1[0-2]))(\.\d{1,6})?$/) || !Pgrade2.match(/^([0-8])(\.\d{1,6})?$/)) {
+			alert("不匹配");
+		} else {
+			$.ajax({
+				type : "post",
+				url : "{:U('Score/savePgrade')}",
+				dataType : "json",
+				data : $("#Pgrade").serialize(),
+				success : function(data) {
+					alert(data);
+				}
+			})
+		}
+	}
+</script>
+</block>

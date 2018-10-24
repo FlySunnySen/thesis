@@ -1,0 +1,62 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>我的导师</title>
+</block>
+<block name="main">
+
+	
+				<header>
+					<hgroup>
+						<h1>导师信息</h1>
+						<h2>导师姓名：{$Think.session.tname}</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+				    
+					<table id="myTable">
+					  <volist name="teacher" id="v">
+						<tr>
+							<td>工号：</td>
+							<td>{$v.Tnum}</td>
+						</tr>
+						<tr>
+							<td>姓名</td>
+							<td>{$v.Tname}</td>
+						</tr>
+						<tr>
+							<td>性别</td>
+							<td>{$v.sex}</td>
+						</tr>
+						<tr>
+							<td>系别</td>
+							<td>{$v.depart}</td>
+						</tr>
+						<tr>
+							<td>研究方向</td>
+							<td>{$v.direction}</td>
+						</tr>
+						<tr>
+							<td>职称</td>
+							<td>{$v.title}</td>
+						</tr>
+						<tr>
+							<td>联系方式</td>
+							<td>{$v.phone}</td>
+						</tr>
+						<tr>
+							<td>QQ</td>
+							<td>{$v.qq}</td>
+						</tr>
+						<tr>
+							<td>电子邮箱</td>
+							<td>{$v.email}</td>
+						</tr>
+						<tr>
+							<td>入职时间</td>
+							<td>{$v.startdate}</td>
+						</tr>
+					  </volist>
+					</table>
+					 
+				</div>
+</block>

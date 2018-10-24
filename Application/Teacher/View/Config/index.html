@@ -1,0 +1,42 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>系统管理</title>
+</block>
+<block name="main">
+	
+		<div>
+			<header>
+				<hgroup>
+					<h1>请选择要开放的年份</h1>
+				</hgroup>
+			</header>
+			<form action="__CONTROLLER__/openSystem" method="post">
+				<br />
+					<select id="myYear" name="myYear">
+						
+		
+					</select> 
+					<button type="submit" class="button blue">开放</button>
+					<button type="submit" class="button" formaction="__CONTROLLER__/closeSystem">维护</button>
+					<button type="submit" class="button" formaction="__CONTROLLER__/exportData">导出数据</button>
+		    </form>
+			
+				
+			</div>
+	    
+	<script language="javascript" type="text/javascript"> 
+				window.onload=function(){ 
+				//设置年份的选择 
+				var myDate= new Date(); 
+				var startYear=myDate.getFullYear()-50;//起始年份 
+				var endYear=myDate.getFullYear()+50;//结束年份 
+				var obj=document.getElementById('myYear') 
+				for (var i=startYear;i<=endYear;i++) 
+				{ 
+				obj.options.add(new Option(i,i)); 
+				} 
+				obj.options[obj.options.length-51].selected=1; 
+				} 
+	</script> 
+	
+</block>

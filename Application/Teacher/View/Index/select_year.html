@@ -1,0 +1,47 @@
+<meta charset="UTF-8">
+<block name="head">
+	<title>选择系统</title>
+</block>
+<notempty  name="select" >
+
+<div class="title">选择系统</div>
+<div class="data-edit clear">
+<select name="select" id="select">
+<foreach name="select" item="v">
+<option value="{$v.year}">{$v.year}</option>
+</foreach>
+</select>
+<button id="yearSelected">进入系统</button>
+</div>
+
+<else /> 
+系统未开发，如果你是管理员请<a href="__MODULE__/config/index">点击这里</a>
+</notempty>
+<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>
+<script>
+	   $(function(){
+	   	   
+	   	   $("#yearSelected").bind('click',function(){
+	   	   	    	var options=$("#select option:selected").val();
+					$.ajax({
+							type:"post",
+							url:'__CONTROLLER__/getYear',
+							dataType:"json",
+							data:{options:options},
+							success:function(data){
+								alert(data);
+								window.location.href = "__CONTROLLER__/index";
+								
+							},
+							error:function(){
+								alert('失败');
+							},
+						})
+	   	   });
+	   	
+	   	
+	   	
+	   })
+	
+	
+</script>

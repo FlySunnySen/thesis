@@ -1,0 +1,52 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题一览</title>
+</block>
+<block name="main">
+
+				<header>
+					<hgroup>
+						<h1>课题一览</h1>
+						<h2>选择课题</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+					<table id="myTable">
+						
+						<thead>
+							<tr>
+								<td>指导老师</td>
+								<td>课题名</td>
+								<td>类别</td>
+								<td>来源</td>
+								<td>学号</td>
+								<td>学生姓名</td>							
+								<td>课题情况</td>
+							</tr>
+						</thead>
+						
+						<volist name="topic" id="v">
+							
+							<form method="post" action="__ACTION__">
+								<tr>
+								    <td>{$v.Tname}</td>
+									<td><a href="__MODULE__/Apply/topic/Tnum/{$v.Tnum}">{$v.Cname}</a></td>
+									<td>{$v.Ctype}</td>
+									<td>{$v.Csource}</td>
+									<td>{$v.Snum}</td>
+									<td>{$v.Sname}</td>					
+									<td>
+										<?php 
+											$status = ($v["status"]);		
+											echo ($status ==1)?'已选':'未选';						 											
+										?>
+										
+									</td>
+								</tr>
+							</form>
+					    
+						</volist>
+						
+					</table>
+				</div>
+</block>

@@ -1,0 +1,48 @@
+<extend name="Public::layout" />
+<block name="head">
+	<title>论文分配</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+		
+		    <h1>论文分配管理</h1>
+						
+		</hgroup>
+	</header>
+	
+	
+	<div class="content">
+				
+					<table id="myTable">
+						<thead>
+							<tr>
+								<td>分组编号</td>
+								<td>组长</td>
+								<td>分组成员</td>
+								<td>答辩时间</td>						
+								<td>答辩教室</td>
+								<td>答辩学生</td>
+								<td>操作</td>
+							</tr>
+						</thead>
+						<foreach name="defenseinfo" item="vo">
+						<tr>
+							<td>{$vo.defense_group}</td>
+							<td>{$vo.admin}</td>
+							<td>{$vo.TEA}</td>
+							<td>{$vo.time}</td>
+							<td>{$vo.class}</td>
+							<td>{$vo.STU}</td>
+							<td>
+								<a href="__CONTROLLER__/showAddViewTeacher/defense_group/{$vo.defense_group}/year/{$vo.year}/ERG_group/{$vo.ERG_group}">分配论文评阅</a>
+							<a href="__CONTROLLER__/RscoreSum/defense_group/{$vo.defense_group}/year/{$vo.year}/ERG_group/{$vo.ERG_group}" style="margin-left: 15px;">答辩分汇总</a>
+							</td>
+						</tr>
+						</foreach>
+					</table>
+				</div>
+		<div class="page">
+			{$page}
+		</div>
+</block>

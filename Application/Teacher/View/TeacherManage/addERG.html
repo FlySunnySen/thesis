@@ -1,0 +1,21 @@
+﻿<extend name="Public:layout"/>
+<block name="head">
+	<title>添加教研室</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>
+				添加教研室
+			</h1>
+			
+		</hgroup>
+	</header>
+	<form action="__CONTROLLER__/addErgAction" method="post">
+		<div>
+		    <p style="font-size: 15px;margin-top: 15px;">教研室名字</p>
+		    <input style="display: inline-block;width: 50%;" name="ERG_name" />
+		    <button type="submit">添加</button>
+	    </div>
+	</form>
+</block>

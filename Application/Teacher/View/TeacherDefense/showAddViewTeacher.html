@@ -1,0 +1,124 @@
+<extend name="public::layout"/>
+
+	
+	
+	<block name="head">
+		<title>论文分配</title>
+	<style>
+		.stu{
+			float: left;
+			width: 50%;
+			margin-top:2% ;
+			margin-left:2% ;
+			text-align: center;
+		}
+		.focus{
+			font-style: italic;
+			color: red;
+		}
+	</style>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>
+				论文分配
+			</h1>
+			<h2>
+				当前组员：
+				<foreach name="defense_Tea" item="vo">
+                      {$vo.Tname},					 					
+				</foreach>
+			</h2>
+		</hgroup>
+	</header>
+	<div class="stu">
+	<form >
+		<table id="myTable">
+				<tr>
+					<td colspan="6">已分配的学生</td>
+				</tr>
+				<tr>
+					<td>学号</td>
+					<td>姓名</td>
+					<td>指导老师</td>					
+					<td>评阅老师</td>
+					<td>组内成员</td>
+					<td>操作</td>
+				</tr>
+				<foreach name="defense_student" item="vo">
+					<tr>
+						<td>{$vo.Snum}</td>
+						<td>{$vo.Sname}</td>
+						<td class="focus">{$vo.EduTeacher}</td>						
+						<td>{$vo.Tname}</td>
+						<td>
+							<select class="{$vo.Snum}">
+							    <foreach name="defense_Tea" item="vo1">
+							    	<option value="{$vo1.Tnum}">{$vo1.Tname}</option>
+							    </foreach>
+						    </select>
+						</td>
+						<td><a class="giveTea" id="{$vo.Snum}" >更改</a></td>
+					</tr>				
+				</foreach>
+		</table>
+	
+	    
+	</form>
+	</div>	
+	
+	<div class="stu" style="width: 45%;">
+	    <form id="auto" method="post" action="__CONTROLLER__/autoAddViewTea">
+		<table id="myTable">
+				<tr>
+					<td colspan="5">未分配的学生</td>
+				</tr>
+				<tr>
+					<td>学号</td>
+					<td>姓名</td>
+					<td >指导老师</td>
+					<td>组内成员</td>
+					<td>操作</td>
+				</tr>
+				<foreach name="defense_student_noreview" item="vo">
+					<tr>
+						<td>{$vo.Snum}</td>
+						<td>{$vo.Sname}</td>
+						<td class="focus">{$vo.Tname}</td>
+						<td>
+							<select class="{$vo.Snum}">
+							    <foreach name="defense_Tea" item="vo1">
+							    	<option value="{$vo1.Tnum}">{$vo1.Tname}</option>
+							    </foreach>
+						    </select>
+						</td>
+						<td><a class="giveTea" id="{$vo.Snum}">手动添加</a></td>
+					</tr>				
+				</foreach>
+				
+			</table>
+			<input name="defense_group" value="{$defense_group}" type="hidden"/>
+			<!--<button class="blue">自动分配</button>-->
+		</form>
+	</div>
+	<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$(".giveTea").bind('click',function(){
+				var student = $(this).attr('id');
+				var teacher = $("."+student).val();
+				$.ajax({
+					type:"post",
+					url:"__CONTROLLER__/addViewTea",
+					data:{"Snum":student,"reviewTeacher":teacher},
+					async:true,
+					success:function(data){
+						alert(data);
+						location.reload();
+					},
+				});
+			})
+		})
+	</script>
+</block>

@@ -1,0 +1,20 @@
+<extend name="Public::layout" />
+<block name="head">
+	<title>分配学生</title>
+</block>
+<block name="main">
+   <header>
+   	    <hgroup>
+   	    	<h1>分配学生</h1>
+   	    	<h2>如果学生已选课题，则无法分配</h2>
+   	    </hgroup>
+   </header>
+   <div>
+   	   <form action="__CONTROLLER__/giveStuAction" method="post">
+   	   	   <input type="hidden" name="Cnum" value="{$Cnum}" />
+   	   	   <input type="hidden" name="Tnum" value="{$Tnum}" />
+   	   	   <input type="text" name="Snum" placeholder="请输入学号" style="margin-top:15px;width:40%" />
+   	   	   <button type="submit">添加</button>
+   	   </form>
+   </div>
+</block>

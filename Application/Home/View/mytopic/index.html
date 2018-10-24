@@ -1,0 +1,66 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>我的课题</title>
+</block>
+<block name="main">
+				<header>
+					<hgroup>
+						<h1>我的课题信息</h1>
+						<h2>学生姓名:{$Think.session.student.name}</h2>
+					</hgroup>
+					<aside>
+						<a href="__CONTROLLER__/teacher/{$Think.session.tnum}">导师姓名：{$Think.session.tname}</a>
+					</aside>
+				</header>
+				<div class="content">
+				    
+				<if condition="$topic neq null">
+					<table id="myTable">
+						<volist name="topic" id="v">
+							<tr>
+								<td>课题名</td>
+								<td>{$v.Cname}</td>
+							</tr>
+							<tr>
+								<td>课题类别</td>
+								<td>{$v.Ctype}</td>
+							</tr>
+							<tr>
+								<td>课题来源</td>
+								<td>{$v.Csource}</td>
+							</tr>
+							<tr>
+								<td>课题简介</td>
+								<td><textarea style="height: 100px;" disabled="disabled">{$v.Ctext}</textarea></td>
+							</tr>
+						</volist>
+					 </table>
+				
+				<else />
+				   
+				   <table id="myTable">
+				    	<tr>
+				    		<td>课题名称</td>
+				    		<td>课题类型</td>
+				    		<td>课题来源</td>
+				    		<td>课题简介</td>
+				    		<td>教师</td>
+				    		<td>状态</td>
+				    	</tr>
+				    	<foreach name="data2" item="vo">
+				    		<tr>
+				    			<td>{$vo.Cname}</td>
+				    			<td>{$vo.Ctype}</td>
+				    			<td>{$vo.Csource}</td>
+				    			<td>{$vo.Ctext}</td>
+				    			<td>{$vo.Tname}</td>
+				    			<td style="color: red;">审核中</td>				    			
+				    		</tr>
+				    	</foreach>
+				    </table>
+				
+				</if>
+			
+					 
+				</div>
+</block>

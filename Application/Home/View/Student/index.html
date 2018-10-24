@@ -1,0 +1,52 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>我的信息</title>
+</block>
+<block name="main">
+
+
+				<header>
+					<hgroup>
+						<h1>我的信息</h1>
+						<h2>学生姓名:{$Think.session.student.name}</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+					<table id="myTable">
+					<volist name="student" id="v">
+						<tr>
+							<td>学号：</td>
+							<td>{$v.Snum}</td>
+						</tr>
+						<tr>
+							<td>姓名</td>
+							<td>{$v.Sname}</td>
+						</tr>
+						<tr>
+							<td>性别</td>
+							<td>{$v.sex}</td>
+						</tr>
+						<tr>
+							<td>专业方向</td>
+							<td>{$v.class}</td>
+						</tr>
+						<tr>
+							<td>联系方式</td>
+							<td>{$v.phone}</td>
+						</tr>
+						<tr>
+							<td>电子邮箱</td>
+							<td>{$v.email}</td>
+						</tr>
+						<tr>
+							<td>QQ</td>
+							<td>{$v.qq}</td>
+						</tr>
+					</volist>
+						
+					</table>
+					<br>
+					<a href="__CONTROLLER__/revise/{$v.Snum}"><button>修改信息</button></a>
+					<a href="__CONTROLLER__/editpwd/{$v.Snum}"><button>修改密码</button></a>
+				</div>
+</block>

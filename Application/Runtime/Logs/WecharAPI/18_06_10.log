@@ -1,0 +1,1486 @@
+[ 2018-06-10T09:02:53+08:00 ] ::1 /biye/index.php/WecharAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载控制器:WecharAPI
+
+[ 2018-06-10T09:03:16+08:00 ] ::1 /biye/index.php/WecharAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载控制器:WecharAPI
+
+[ 2018-06-10T09:03:18+08:00 ] ::1 /biye/index.php/WecharAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载控制器:WecharAPI
+
+[ 2018-06-10T09:03:24+08:00 ] ::1 /biye/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-06-10T09:06:20+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+NOTIC: [2048] Declaration of Teacher\Controller\PInformationController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 81 行.
+ERR: 无法加载控制器:PInformation
+
+[ 2018-06-10T09:08:07+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [2048] Declaration of WecharAPI\Controller\PInformationController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 81 行.
+NOTIC: [8] Undefined index: infotitle C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 26 行.
+NOTIC: [8] Undefined index: infocontent C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 27 行.
+NOTIC: [8] Undefined index: num C:\wamp64\www\biye\Application\WecharAPI\Controller\PInformationController.class.php 第 28 行.
+ERR: 没有定义数据库配置
+
+[ 2018-06-10T09:08:39+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:03+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:04+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:04+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:05+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:05+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:05+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:05+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: Think\Model:addNewp方法不存在！
+
+[ 2018-06-10T09:10:22+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-06-10T09:10:56+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-06-10T09:14:49+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-06-10T09:15:32+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2018-06-10T09:15:57+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2018-06-10T09:15:58+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-06-10T09:16:02+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-06-10T09:16:04+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-06-10T09:16:40+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+
+[ 2018-06-10T09:16:41+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-06-10T09:16:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:43+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-06-10T09:16:46+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:47+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:48+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2018-06-10T09:16:49+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:51+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-06-10T09:16:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:52+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:52+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:16:52+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:21:35+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-06-10T09:23:37+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-06-10T09:23:39+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-06-10T09:23:41+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:43+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:43+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:44+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:44+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:44+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:51+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2018-06-10T09:23:53+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-06-10T09:23:54+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-06-10T09:23:55+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-06-10T09:23:56+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2018-06-10T09:23:57+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-06-10T09:23:58+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:59+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:23:59+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T09:24:00+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-10T09:24:20+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2018-06-10T09:24:21+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-06-10T09:24:22+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-06-10T09:24:22+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-06-10T09:35:55+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-06-10T09:35:57+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-06-10T09:35:58+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-06-10T09:40:02+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+
+[ 2018-06-10T09:40:03+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-06-10T09:40:04+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-06-10T09:40:05+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-06-10T09:47:17+08:00 ] ::1 /biye/WecharAPI/PInformation/addphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+
+[ 2018-06-10T09:47:20+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2018-06-10T09:47:21+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2018-06-10T09:52:46+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-06-10T09:52:47+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-06-10T09:52:52+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-06-10T16:16:58+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-06-10T16:17:01+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-06-10T16:17:01+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T16:17:03+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-06-10T16:17:04+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-06-10T16:17:05+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-06-10T16:17:05+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T16:17:08+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-06-10T16:17:09+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2018-06-10T16:17:10+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-06-10T16:17:10+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T16:17:12+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T16:17:13+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-06-10T16:17:13+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-06-10T16:17:14+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-06-10T16:17:15+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-10T16:19:42+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-06-10T16:19:44+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-06-10T16:22:38+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+
+[ 2018-06-10T16:22:40+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-10T19:35:35+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-06-10T19:35:57+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002544s ]
+
+[ 2018-06-10T19:35:58+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2018-06-10T19:35:59+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-06-10T19:35:59+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2018-06-10T19:36:00+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2018-06-10T19:36:01+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:36:05+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2018-06-10T19:36:06+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2018-06-10T19:36:06+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-06-10T19:36:27+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-06-10T19:40:02+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2018-06-10T19:40:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:32+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:33+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:33+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:37+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:37+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-06-10T19:41:38+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-06-10T19:41:38+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:39+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:39+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:39+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:46+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-06-10T19:41:46+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2018-06-10T19:41:47+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:49+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:49+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:49+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:52+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:53+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:53+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:53+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:58+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:41:59+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-06-10T19:42:00+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-06-10T19:42:01+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:02+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:06+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:09+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-06-10T19:42:10+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:11+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:11+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:11+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:12+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-06-10T19:42:15+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-06-10T19:42:16+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-06-10T19:42:16+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-06-10T19:42:17+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:21+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:24+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-06-10T19:42:24+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:25+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:25+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:25+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:25+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-06-10T19:42:26+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:27+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:27+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-06-10T19:42:28+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:29+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:29+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-06-10T19:42:29+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-06-10T19:42:30+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2018-06-10T19:42:31+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-06-10T19:42:31+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:33+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:34+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-06-10T19:42:35+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:35+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-06-10T19:42:36+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-06-10T19:42:36+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-06-10T19:42:37+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:37+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:38+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-06-10T19:42:38+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2018-06-10T19:42:39+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2018-06-10T19:42:40+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:40+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:40+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:40+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:42+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:45+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:47+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-06-10T19:42:47+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2018-06-10T19:42:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:49+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:50+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-06-10T19:42:50+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:42:51+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-06-10T19:42:52+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-06-10T19:42:52+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:52:48+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-06-10T19:52:49+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-06-10T19:52:50+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-06-10T19:52:51+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:52:54+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-06-10T19:52:54+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:52:59+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:54:15+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-06-10T19:54:17+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:54:17+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:54:21+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:55:09+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T19:58:34+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+
+[ 2018-06-10T20:00:02+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2018-06-10T20:01:31+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+
+[ 2018-06-10T20:02:31+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-06-10T20:05:12+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+
+[ 2018-06-10T20:07:25+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2018-06-10T20:08:22+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+
+[ 2018-06-10T20:10:09+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-06-10T20:12:48+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+
+[ 2018-06-10T20:12:56+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-06-10T20:12:57+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2018-06-10T20:13:32+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-06-10T20:14:44+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-06-10T20:15:10+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-06-10T20:15:18+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-06-10T20:15:24+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-06-10T20:20:25+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-06-10T20:20:25+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-06-10T20:20:26+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-06-10T20:20:28+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-06-10T20:20:28+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-06-10T20:20:29+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2018-06-10T20:20:30+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-06-10T20:20:30+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-06-10T20:20:30+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-06-10T20:20:36+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2018-06-10T20:20:37+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-06-10T20:20:37+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-06-10T20:20:38+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2018-06-10T20:20:39+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-06-10T20:20:39+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-06-10T20:20:40+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-06-10T20:20:41+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-06-10T20:20:42+08:00 ] ::1 /biye/WecharAPI/PInformation/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-06-10T20:20:43+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-06-10T20:20:44+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-06-10T20:20:46+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-06-10T20:20:46+08:00 ] ::1 /biye/WecharAPI/PTeacherManage/ERG_groupphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-06-10T20:20:53+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2018-06-10T20:21:05+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-06-10T20:22:18+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+
+[ 2018-06-10T20:25:08+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2018-06-10T20:29:29+08:00 ] ::1 /biye/WecharAPI/PDefence/indexphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+

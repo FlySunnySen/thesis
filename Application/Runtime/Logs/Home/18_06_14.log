@@ -1,0 +1,525 @@
+[ 2018-06-14T10:35:41+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-06-14T10:35:54+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2018-06-14T10:35:55+08:00 ] ::1 /biye/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-06-14T10:36:09+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-06-14T10:36:14+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1707
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-06-14T10:36:16+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-06-14T10:36:21+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-06-14T10:37:45+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2018-06-14T10:37:58+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-06-14T10:37:59+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-06-14T10:38:00+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-06-14T10:38:04+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-06-14T10:38:06+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-06-14T10:38:07+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-06-14T10:38:08+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-06-14T10:38:12+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-06-14T10:38:13+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-06-14T10:38:14+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-06-14T10:38:15+08:00 ] ::1 /biye/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-06-14T10:38:16+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2018-06-14T10:38:18+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-06-14T10:38:23+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-06-14T10:38:29+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-06-14T10:38:35+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2018-06-14T10:38:40+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-06-14T10:38:41+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2018-06-14T10:38:54+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0296
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-06-14T10:38:56+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-06-14T10:39:00+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-06-14T10:39:01+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2018-06-14T10:39:02+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-06-14T10:39:20+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0633
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-06-14T10:39:22+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2018-06-14T10:39:24+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2018-06-14T10:39:26+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2018-06-14T10:39:29+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-06-14T10:39:30+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-06-14T10:39:56+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-06-14T10:39:57+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2018-06-14T10:39:58+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2018-06-14T10:39:59+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-06-14T10:40:02+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-06-14T10:40:03+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-06-14T10:40:30+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2018-06-14T10:40:33+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2018-06-14T10:40:34+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-06-14T10:40:35+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2018-06-14T10:40:36+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-06-14T10:40:51+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-06-14T10:41:09+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2018-06-14T10:41:12+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-06-14T10:41:16+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-06-14T10:41:30+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-06-14T10:41:42+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-06-14T10:43:07+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-06-14T10:43:14+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-06-14T10:43:35+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-06-14T10:43:37+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2018-06-14T10:43:44+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-06-14T10:43:45+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-06-14T10:43:47+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-06-14T10:43:48+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-14T10:43:48+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-06-14T10:43:49+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2018-06-14T10:43:50+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/0296
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2018-06-14T10:43:51+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-06-14T10:43:51+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-14T10:44:15+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-06-14T10:44:17+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-06-14T10:44:18+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-06-14T10:44:35+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-06-14T10:44:55+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-06-14T10:44:56+08:00 ] ::1 /biye/index.php/Home/MyTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-06-14T10:52:09+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-06-14T10:52:10+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-06-14T10:52:15+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-06-14T10:52:49+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-06-14T10:52:50+08:00 ] ::1 /biye/index.php/Home/MyTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-06-14T10:58:24+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2018-06-14T10:58:25+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-06-14T10:58:27+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-06-14T10:58:28+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-06-14T10:58:32+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-06-14T10:58:39+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-06-14T10:58:40+08:00 ] ::1 /biye/index.php/Home/MyTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+
+[ 2018-06-14T11:08:43+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-06-14T11:08:44+08:00 ] ::1 /biye/index.php/Home/Topic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2018-06-14T11:08:47+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2018-06-14T11:08:48+08:00 ] ::1 /biye/index.php/Home/Apply/topic/Tnum/1156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-06-14T11:08:52+08:00 ] ::1 /biye/index.php/Home/Apply/topic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-06-14T11:08:53+08:00 ] ::1 /biye/index.php/Home/MyTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2018-06-14T11:13:42+08:00 ] ::1 /biye/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-06-14T11:13:43+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2018-06-14T12:34:19+08:00 ] ::1 /biye/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-06-14T12:34:20+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-06-14T12:34:31+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-06-14T12:34:33+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-06-14T12:34:43+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2018-06-14T12:34:44+08:00 ] ::1 /biye/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+
+[ 2018-06-14T12:34:45+08:00 ] ::1 /biye/index.php/Home/MyTopic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-06-14T12:34:48+08:00 ] ::1 /biye/index.php/Home/Grade/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-06-14T12:34:49+08:00 ] ::1 /biye/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-06-14T12:34:50+08:00 ] ::1 /biye/index.php/Home/Apply/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2018-06-14T12:34:53+08:00 ] ::1 /biye/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-06-14T12:34:54+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+

@@ -1,0 +1,119 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>添加指导评分</title>
+</block>
+<block name="main">
+<div class="content">
+<meta charset="utf-8" />
+<form method="post" id="Ggrade">
+	<foreach name="message" item="v"> <input type="hidden"
+		name="Snum" value="{$v.student_Snum}" />
+	<div>课题名称:{$v.Cname}</div>
+	<br />
+	<span>学号:{$v.student_Snum}</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>姓名:{$v.student_name}</span>
+	<br />
+	<br />
+	<table
+		id="myTable">
+		<tr>
+			<td colspan="6">
+				<h2 style="text-align: center">毕业论文（设计）成绩考核表</h2>
+			</td>
+		</tr>
+		<tr style="background-color: #c0c0c0">
+			<td colspan="6">1.指导教师评分 (满分60分)</td>
+		</tr>
+		<tr style="background-color: #c0c0c0">
+			<td>序号</td>
+			<td>考核项目</td>
+			<td>满分</td>
+			<td>得分</td>
+			<td>评语</td>			
+			<td>保存成绩</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>工作态度与记录</td>
+			<td>10</td>
+			<td><input type="text" name="Ggrade1" class="Ggrade1" size="1"
+				value="{$score.Ggrade1}" /></td>
+			<td rowspan="6">
+				<textarea name="Gtext" id="Gtext" rows="22">{$score.Gtext}</textarea>
+				
+			</td>
+			
+			<td>
+				<button onclick="savedScore(event)">保存成功</button>
+				<div style="color: red; display: none" class="saved">*保存成功</div>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>基本理论、专业知识、基本技能和外语水平</td>
+			<td>10</td>
+			<td><input type="text" name="Ggrade2" class="Ggrade2" size="1"
+				value="{$score.Ggrade2}" /></td>
+		
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>完成情况与水平、工作量、及完成质量</td>
+			<td>20</td>
+			<td><input type="text" name="Ggrade3" class="Ggrade3" size="1"
+				value="{$score.Ggrade3}" /></td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>独立工作能力、分析解决问题和实际工作能力</td>
+			<td>15</td>
+			<td><input type="text" name="Ggrade4" class="Ggrade4" size="1"
+				value="{$score.Ggrade4}" /></td>
+			
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>创新能力</td>
+			<td>5</td>
+			<td><input type="text" name="Ggrade5" class="Ggrade5" size="1"
+				value="{$score.Ggrade5}" /></td>
+			
+		</tr>
+		
+	</table>
+
+</foreach>
+</form>
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+	//保存分数
+	function savedScore(event) {
+		event.preventDefault();
+		var Ggrade1 = $(".Ggrade1").val();
+		var Ggrade2 = $(".Ggrade2").val();
+		var Ggrade3 = $(".Ggrade3").val();
+		var Ggrade4 = $(".Ggrade4").val();
+		var Ggrade5 = $(".Ggrade5").val();
+		if (!Ggrade1.match(/^([0-9]|(1[0]))(\.\d{1,6})?$/)
+				|| !Ggrade2.match(/^([0-9]|(1[0]))(\.\d{1,6})?$/)
+				|| !Ggrade3.match(/^([0-9]|(1[0-9])|(2[0]))(\.\d{1,6})?$/)
+				|| !Ggrade4.match(/^([0-9]|(1[0-5]))(\.\d{1,6})?$/)
+				|| !Ggrade5.match(/^([0-5])(\.\d{1,6})?$/)) {
+			alert("不匹配");
+		} else {
+			$.ajax({
+				type : "post",
+				url : "{:U('Score/saveGgrade')}",
+				dataType : "json",
+				data : $("#Ggrade").serialize(),
+				success : function(data) {
+					if (data.status == 1) {
+						$(".saved").show().delay(3000).hide(300);
+					}
+				}
+			})
+		}
+	}
+</script>
+</div>
+</block>

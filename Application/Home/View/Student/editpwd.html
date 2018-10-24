@@ -1,0 +1,38 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>修改密码</title>
+</block>
+<block name="main">
+
+				<header>
+					<hgroup>
+						<h1>修改密码</h1>
+						<h2>学生姓名:{$Think.session.student.name}</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+				<form method="post"  action="__ACTION__">
+				
+					<table id="myTable">
+						
+						
+						<tr>
+						    		<td>原密码</td>
+							<td><input type="password" name="oldpwd" id="oldpwd" required="required"></td>
+						
+						</tr>
+						<tr>
+								<td>新密码</td>
+							<td><input type="password" name="newpwd" id="newpwd" required="required"></td>
+							
+						</tr>    
+						
+						
+					</table>
+					<br />
+					
+					<input type="submit" value="确认信息" />
+					<input type="reset" value="取消修改" />
+				</form>
+				</div>
+</block>

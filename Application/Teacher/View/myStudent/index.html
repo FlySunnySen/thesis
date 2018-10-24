@@ -1,0 +1,58 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>我的学生</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>我的学生</h1>
+		</hgroup>
+	</header>
+<div class="container">
+	<br />
+	
+		<table id="myTable">
+			<tr >
+				<td>学号</td>
+				<td>姓名</td>
+				<td>email</td>
+				<td>QQ</td>
+				<td>电话</td>
+				<td>操作</td>
+			</tr>
+			<foreach name="list" item="v">
+			<tr class="text-center">
+				<td>{$v.Snum}</td>
+				<td>{$v.Sname}</td>
+				<td>{$v.email}</td>
+				<td>{$v.qq}</td>
+				<td>{$v.phone}</td>
+				<td><a href="javascript:void(0);" onclick="savedStatus('{$v.Snum}','a_{$v.Snum}')" class="a_{$v.Snum}"><eq name="v.denfense_status" value="">推荐<else/>已推荐</eq></a></td>
+			</tr>
+			</foreach>
+		</table>
+	</div>
+</div>
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+	//保存分数
+	function savedStatus(Snum,style){
+		$.ajax({
+			type:"post",
+			url:"{:U('myStudent/change')}",
+			dataType:"json",
+			data:{Snum:Snum},
+			success:function(data){
+				alert(data.info);
+				if(data.status==2){
+					$(location).attr('href',"__MODULE__/Score/Ggrade");
+				}
+				if(data.status==1){									
+				$('.'+style).html("已推荐");
+				}
+			}
+			})
+	}
+</script>
+
+</block>

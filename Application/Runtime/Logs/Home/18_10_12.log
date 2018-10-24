@@ -1,0 +1,10 @@
+[ 2018-10-12T06:56:00+08:00 ] ::1 /biye/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+
+[ 2018-10-12T06:56:02+08:00 ] ::1 /biye/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+

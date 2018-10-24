@@ -1,0 +1,78 @@
+<extend name="Public::layout" />
+<block name="head">
+	<style>
+		<title>修改公告</title>
+		.field-wrap input{
+		width:400px;
+		margin-left: 20px;
+	}
+	.field-wrap span{
+		width: 100px;
+		font-weight: bold;
+		font-size: 15px;
+		display: inline-block;
+	}
+	</style>
+</block>
+<block name="main">
+	        <header>
+				<hgroup>
+					<h1>修改公告</h1>
+					
+				</hgroup>
+			</header>
+			<div class="content">
+			<form id="news">
+				<div class="field-wrap">
+						<span>公告标题:</span>
+						<input name="infonum" value="{$infonum}" type="hidden" />
+						<input name="infotitle" value="{$infotitle}" type="text" />
+						
+				</div>
+						 <!-- 加载编辑器的容器 -->
+					    <script id="container" name="infocontent" type="text/plain">
+					          {$infocontent}
+					    </script>
+					    <!-- 配置文件 -->
+					    <script type="text/javascript" src="__PUBLIC__/utf8-php/ueditor.config.js"></script>
+					    <!-- 编辑器源码文件 -->
+					    <script type="text/javascript" src="__PUBLIC__/utf8-php/ueditor.all.js"></script>
+					    <!-- 实例化编辑器 -->
+					    <script type="text/javascript">
+					        var ue = UE.getEditor('container',{
+					        	 autoHeight: true,
+					        	 autoWith  : true,
+					        	 initialFrameWidth :null,
+					        	 initialFrameHeight:500
+					        });
+					    </script>
+			    <button class="green" id="sub" style="margin-left: 48%;margin-top: 15px;">保存</button>
+			</form>
+			</div>
+			<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>
+			<script type="text/javascript">
+				$(function(){
+					$('#sub').bind('click',function(){
+						var data = $('#news').serialize();
+						$.ajax({
+							async : false,						   
+							type:'POST',
+							url:'__CONTROLLER__/saveNews',
+							data:data,							
+							success : function(data){
+								if(data){
+									alert(data);
+									window.location.href='__CONTROLLER__/index';
+									
+																		 																		
+								}
+							},
+							
+						});
+						return false;
+					});
+				});
+			</script>
+			
+		
+</block>

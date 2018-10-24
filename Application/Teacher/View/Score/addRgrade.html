@@ -1,0 +1,95 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>添加指导评分</title>
+</block>
+<block name="main">
+<br/><br/><br/><br/>
+
+<form method="post" id="Rgrade">
+	<foreach name="info" item="v">
+		<div>课题名称: <strong> {$v.Cname}</strong></div>
+			<br />
+			<span>学号:{$v.student_Snum}</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>姓名:{$v.student_name}</span>
+			<br />
+			<br />
+	</foreach>
+	<input type="hidden" value="{$Rgrade.0.Did}" name="Did" />
+	<input type="hidden" value="{$Rgrade.0.Studentnum}" name="Studentnum" />
+	<table id="myTable">
+		<tr>
+			<td colspan="7">
+				<h2 style="text-align: center">毕业论文（设计）成绩考核表</h2>
+			</td>
+		</tr>
+		
+		<tr style="background-color: #c0c0c0">
+			<td colspan="7">3.答辩组教师评分 (满分20分)</td>
+		</tr>
+	
+		<tr style="background-color: #c0c0c0">
+			<td>序号</td>
+			<td>考核项目</td>
+			<td>满分</td>
+			<td>得分</td>
+			<td>评语</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>完成任务情况与水平</td>
+			<td>5</td>
+			<td><input type="text" name="RgradeC1" class="RgradeC1" size="1" value="{$Rgrade.0.RgradeC1}"/>			
+			</td>
+			<td rowspan="5"><textarea name="RtextC" id="Rtext" rows="15">{$Rgrade.0.RtextC}</textarea></td>
+			<td rowspan="4"><input type="submit" value="保存" onclick="savedScore(event)" /></td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>论文、设计任务书、图纸与实物的质量</td>
+			<td>5</td>
+			<td><input type="text" name="RgradeC2" class="RgradeC2" value="{$Rgrade.0.RgradeC2}" size="1" /></td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>答辩时讲述的系统性和语言表达能力</td>
+			<td>5</td>
+			<td><input type="text" name="RgradeC3" class="RgradeC3" value="{$Rgrade.0.RgradeC3}" size="1" /></td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>回答问题的正确性</td>
+			<td>5</td>
+			<td><input type="text" name="RgradeC4" class="RgradeC4" value="{$Rgrade.0.RgradeC4}" size="1" /></td>
+		</tr>
+	
+	</table>
+</form>
+
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+	//保存分数
+	function savedScore(event) {
+		event.preventDefault();
+		var RgradeC1 = $(".RgradeC1").val();
+		var RgradeC2 = $(".RgradeC2").val();
+		var RgradeC3 = $(".RgradeC3").val();
+		var RgradeC4 = $(".RgradeC4").val();
+		if (!RgradeC1.match(/^([0-5]|(1[0-2]))(\.\d{1,6})?$/) || !RgradeC2.match(/^([0-5])(\.\d{1,6})?$/) || !RgradeC3.match(/^([0-5])(\.\d{1,6})?$/) || !RgradeC4.match(/^([0-5])(\.\d{1,6})?$/)) {
+			alert("不匹配");
+		} else {
+			$.ajax({
+				type : "post",
+				url : "{:U('Score/saveRgrade')}",
+				dataType : "json",
+				data : $("#Rgrade").serialize(),
+				success : function(data) {
+					
+						alert(data);
+						location.reload();
+					
+				}
+			})
+		}
+	}
+</script>
+</block>

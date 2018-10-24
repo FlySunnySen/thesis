@@ -1,0 +1,45 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>公告管理</title>
+</block>
+<block name="main">
+		
+				<header>
+					<hgroup>
+						<h1>公告管理</h1>
+						
+					</hgroup>
+				</header>
+				<div class="content">
+					<a href="__CONTROLLER__/add"><button class="green" style="margin-bottom: 10px;">新增公告</button></a>
+					<table id="myTable">
+						<thead>
+							<tr>
+								<td>公告编号</td>
+								<td>公告标题</td>
+								<td>发送时间</td>						
+								<td>操作</td>
+							</tr>
+						</thead>
+						<foreach name="type" item="vo">
+						<tr>
+							<td>{$vo.infonum}</td>
+							<td><a href="__CONTROLLER__/show/infonum/{$vo.infonum}">{$vo.infotitle}</a></td>
+							<td>{$vo.infotime}</td>
+							<td><a href="__CONTROLLER__/editInformationShow/infonum/{$vo.infonum}">修改</a> <a href="__CONTROLLER__/delectNews/infonum/{$vo.infonum}" style="margin-left: 15px;">删除</a></td>
+							
+						</tr>
+						</foreach>
+					</table>
+				</div>
+		<div class="page">
+			{$page}
+		</div>
+
+		<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>
+	   
+	    <script>
+	    	
+	    </script>
+		
+	</block>

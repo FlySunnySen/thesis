@@ -1,0 +1,70 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>评阅评分</title>
+</block>
+<block name="main">
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<input type="hidden" name="sid" value="1" id="sid"/>
+
+<div class="content">
+	<div>
+	
+			<table id="myTable">
+			
+	
+			<thead>
+			<tr><td align="center" colspan="9">论文评分</td></tr>
+			<tr class="text-center">
+				
+				<td>学号</td>
+				<td>学生名</td>
+				<td>指导老师</td>
+				<td>课题名</td>
+				<td>项6</td>
+				<td>项7</td>
+				<td>评语</td>
+				<td>答辩稿</td>
+				<td>操作</td>
+				
+			</tr>
+			</thead>
+			<foreach name="score" item="v">
+		
+			<tr class="text-center">				
+				<td>{$v.Snum}</td>
+				<td>{$v.Sname}</td>
+				<td>{$v.Tname}</td>
+				<td>{$v.Cname}</td>
+				<td>{$v.Pgrade1}</td>
+				<td>{$v.Pgrade2}</td>
+				<td>{$v.Ptext}</td>
+				<td>
+					
+					<?php
+								$denfense_draftpath = $v['denfense_draft'];
+								if(!empty($denfense_draftpath)){
+							      echo "<a href='__ROOT__/$denfense_draftpath'>答辩稿</a>";
+							    }   
+					?>
+					
+				</td>
+				<td>
+					<a href="__CONTROLLER__/addPgrade/Snum/{$v.Snum}">修改</a>
+				    <a href="__CONTROLLER__/deletePgrade/Snum/{$v.Snum}" style="margin-left: 5px;">删除</a></td>
+				</td>
+			</tr>
+			</eq>
+			</foreach>
+		</table >
+		
+	</div>
+</div>
+
+</body>
+</html>
+</block>

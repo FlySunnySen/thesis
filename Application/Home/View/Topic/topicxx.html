@@ -1,0 +1,40 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题信息</title>
+</block>
+<block name="main">
+
+			<volist name="Cxx" id="v">
+				<header>
+					<hgroup>
+						<h1>课题信息</h1>
+						<h2>学生姓名:{$v.Sname}</h2>
+					</hgroup>
+
+				</header>
+				<div class="content">
+				    
+					<table id="myTable">
+					
+						<tr>
+							<td>课题名</td>
+							<td>{$v.Cname}</td>
+						</tr>
+						<tr>
+							<td>课题类别</td>
+							<td>{$v.Ctype}</td>
+						</tr>
+						<tr>
+							<td>课题来源</td>
+							<td>{$v.Csource}</td>
+						</tr>
+						<tr>
+							<td>课题简介</td>
+							<td><textarea style="height: 100px;" disabled="disabled">{$v.Ctext}</textarea></td>
+						</tr>
+					
+					 </table>
+					 
+				</div>
+			</volist>
+		

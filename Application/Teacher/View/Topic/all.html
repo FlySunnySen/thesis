@@ -1,0 +1,63 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题列表</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+		
+		    <h1>课题列表</h1>
+						
+		</hgroup>
+	</header>
+
+<div class="container">
+	<br />
+	<p>总计课题数:{$count}</p>
+	
+		
+		<table id="myTable">
+				<thead>
+					<tr>
+						<td>指导老师</td>
+						<td>课题名</td>
+						<td>类别</td>
+						<td>来源</td>
+						<td>学号</td>
+						<td>学生姓名</td>
+						<td>任务书</td>
+						<td>答辩稿</td>
+					</tr>
+				</thead>
+				<foreach name="all_topic" item="v">
+					<tr class="text-center">
+						<td>{$v.Tname}</td>
+						<td>{$v.Cname}</td>
+						<td>{$v.Ctype}</td>
+						<td>{$v.Csource}</td>
+						<td>{$v.Snum}</td>
+						<td>{$v.Sname}</td>
+						<td>
+							<?php
+								$taskpath = $v['taskbook'];
+								if(!empty($taskpath)){
+							      echo "<a href='__ROOT__/$taskpath'>任务书</a>";
+							    }   
+							?>
+						</td>
+						<td>
+							<?php
+								$denfense_draftpath = $v['denfense_draft'];
+								if(!empty($denfense_draftpath)){
+							      echo "<a href='__ROOT__/$denfense_draftpath'>答辩稿</a>";
+							    }   
+							?>
+							
+						</td>
+					</tr>
+				</foreach>
+			</table>
+		
+	</div>
+</div>
+</block>

@@ -1,0 +1,33 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>{$news.infotitle}</title>
+</block>
+<block name="head">
+	<style>
+	
+		h2{
+		font:normal 22px/35px "黑体";
+		color:#000;
+		text-align:center;}
+		.one{
+		font-size:12px;
+		text-align:center}
+		p{
+		text-indent:2em;}
+		.blue{
+		color:#00C}
+		.gray{
+		color:#666}
+
+	</style>
+</block>
+<block name="main">
+	<h2>{$news.infotitle}</h2> 
+<p class="one gray">时间:<em>{$news.infotime}</em> 来源:<em>管理员</em> 作者:<em>{$news.Tnum}</em> 
+<hr/> 
+<div>
+{$news.infocontent}
+</div>
+
+
+</block>

@@ -1,0 +1,122 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>答辩分汇总</title>
+</block>
+<block name="main">
+<header>
+		<hgroup>
+			<h1>答辩分汇总</h1>
+			<h2>
+				当前组员：
+				<foreach name="defense_Tea" item="vo">
+                      {$vo.Tname},					 					
+				</foreach>
+			</h2>
+		</hgroup>
+</header>
+
+<div class="content">
+	
+	<button class="button blue addGgrade">汇总分数</button>
+	<input class="defense_group" type="hidden" value="{$defense_group}" />
+	<br/><br/>
+	<div>
+		<table id="myTable">
+		<thead>
+			<tr>
+				<td align="center" colspan="10">已评分</td>
+			</tr>
+			<tr class="text-center"
+				style="font-weight: 800; color: #2A6496; background-color: #C0C0C0;">
+				<td>汇总分数</td>
+				<td>指导老师</td>
+				<td>课题名</td>
+				<td>学号</td>
+				<td>学生名</td>
+				<td>项8</td>
+				<td>项9</td>
+				<td>项10</td>
+				<td>项11</td>
+				<td>评语</td>
+			</tr>
+			</thead>
+			<foreach name="Rscore" item="v">
+			<tr class="text-center">
+				<td><input type="checkbox" value="{$v.student_Snum}" name="sid" class="check"/></td>
+				<td>{$v.Tname}</td>
+				<td>{$v.Cname}</td>
+				<td>{$v.student_Snum}</td>
+				<td>{$v.student_name}</td>
+				<td class="Rgrade1_{$v.Sid}">{$v.Rgrade1}</td>
+				<td class="Rgrade2_{$v.Sid}">{$v.Rgrade2}</td>
+				<td class="Rgrade3_{$v.Sid}">{$v.Rgrade3}</td>
+				<td class="Rgrade4_{$v.Sid}">{$v.Rgrade4}</td>
+				<td>{$v.Rtext}</td>
+			<tr>
+			 	<td colspan="100%"> 
+							<table cellspacing="0" cellpadding="4" rules="rows"
+								style="background-color: #ffffff; border-color: #336666; border-width: 3px; border-style: Double; height: 100%; width: 55%; border-collapse: collapse;">
+								<thead>
+								<tr 
+									style=" background-color: #336666; font-weight: bold;">
+									<th scope="col" style="width: 80px;">答辩教师</th>
+									<th scope="col">项8</th>
+									<th scope="col">项9</th>
+									<th scope="col">项10</th>
+									<th scope="col">项11</th>
+									<th scope="col">评语</th>
+								</tr>
+								</thead>
+								<foreach name="v.Rscoreinfo" item="w">
+								<eq name="w.Sid" value="$v.Sid">
+									<tr>
+										<td>{$w.Tname}</td>
+										<td>{$w.RgradeC1}</td>
+										<td>{$w.RgradeC2}</td>
+										<td>{$w.RgradeC3}</td>
+										<td>{$w.RgradeC4}</td>
+										<td>{$w.RtextC}</td>
+									</tr>
+								</eq>
+								</foreach>
+							</table>
+				</td> 
+			</tr>
+
+			</tr>
+			</foreach>
+		</table>
+	</div>
+</div>
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.table-responsive').find('input[type=checkbox]').bind('click',function(){
+		$('.table-responsive').find('input[type=checkbox]').not(this).prop("checked",false);
+	})
+});
+//选中课题的操作
+function checkedOnlyStatus(sid,defense_group){
+	$.ajax({
+		type:"post",
+		url:"{:U('teacherDefense/plusScore')}",
+		dataType:"json",
+		data:{sid:sid,defense_group:defense_group},
+		success:function(data){
+			alert(data);
+			location.reload();
+		}
+		})
+}
+//添加分数提交
+$(".addGgrade").click(function(){
+	if($(".check").is(':checked')){
+		var defense_group = $(".defense_group").val();
+		var sid=$(".check:checked").val();
+		checkedOnlyStatus(sid,defense_group);
+	}else{
+		alert("没有选中课题");
+	}
+});
+</script>
+</block>

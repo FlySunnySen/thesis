@@ -1,0 +1,59 @@
+<extend name="Public:layout" />
+<block name="head">
+	<title>答辩评分</title>
+</block>
+<block name="main">
+
+<header>
+	<hgroup>
+		<h1>答辩评分</h1>
+		<h2>当前组员：
+			<foreach name="TeaInfo" item="vo">
+			   {$vo.Tname},
+		    </foreach>
+		</h2>
+	</hgroup>
+</header>
+
+
+<input type="hidden" name="sid" value="1" id="sid"/>
+
+
+	<div >
+		<table id="myTable">
+		<thead>
+			<tr><td align="center" colspan="10">答辩评分</td></tr>
+			<tr class="text-center">
+			
+				<td>学号</td>
+				<td>学生名</td>
+				<td>指导老师</td>
+				<td>课题名</td>
+				<td>项8</td>
+				<td>项9</td>
+				<td>项10</td>
+				<td>项11</td>
+				<td>评语</td>
+				<td>修改</td>
+			</tr>
+			</thead>
+			<foreach name="data" item="v">
+			<tr class="text-center">
+			
+				<td>{$v.Snum}</td>
+				<td>{$v.Sname}</td>
+				<td>{$v.Tname}</td>
+				<td>{$v.Cname}</td>
+				<td>{$v.RgradeC1}</td>
+				<td>{$v.RgradeC2}</td>
+				<td>{$v.RgradeC3}</td>
+				<td>{$v.RgradeC4}</td>
+				<td>{$v.RtextC}</td>
+				<td><a href="__CONTROLLER__/addRgrade/Snum/{$v.Snum}">修改</a></td>
+			</tr>
+			</foreach>
+		</table>
+	</div>
+</div>
+
+</block>

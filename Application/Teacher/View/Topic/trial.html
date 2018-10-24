@@ -1,0 +1,65 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题审批</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+		
+		    <h1>课题审批</h1>
+						
+		</hgroup>
+	</header>
+
+<div class="container">
+	<br />
+	<p>总计申请数:{$count}</p>
+	
+		
+		<table id="myTable">
+				<thead>
+					<tr>
+						
+						<td>课题名</td>
+						<td>类别</td>
+						<td>来源</td>
+						<td>学号</td>
+						<td>学生姓名</td>
+						<td>申请理由</td>
+						<td>状态</td>
+						<td>操作</td>
+					
+					</tr>
+				</thead>
+				<foreach name="apply" item="v">
+					<tr class="text-center">
+						<td>{$v.Cname}</td>
+						<td>{$v.Ctype}</td>
+						<td>{$v.Csource}</td>						
+						<td>{$v.student_Snum}</td>
+						<td>{$v.student_name}</td>
+						<td>{$v.reason}</td>
+						<td>
+							<?php								
+								$status = $v['status'];
+								echo ($status ==1)?'通过':'未审核';
+						    ?>
+							
+						</td>
+						<td>
+						   <a href='__CONTROLLER__/trialAction/apply_num/{$v.apply_num}/Cnum/{$v.Cnum}/Snum/{$v.student_Snum}/status/1'>
+									同意
+								</a>
+								<a href='__CONTROLLER__/delectTrial/apply_num/{$v.apply_num}'>
+									拒绝
+								</a>
+							
+						</td>
+						
+					</tr>
+				</foreach>
+			</table>
+		
+	</div>
+</div>
+</block>

@@ -1,0 +1,33 @@
+<extend name="Public:layout"/>
+<block name="head">
+	<title>教研室管理</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+			<h1>
+				教研室管理
+			</h1>
+		</hgroup>
+	</header>
+	<a href="__CONTROLLER__/addERG" ><button style="margin-top: 15px;" class="blue">添加教研室</button></a>
+	<table id="myTable">
+		<tr>
+			<td>编号</td>
+			<td>名称</td>
+		    <td>操作</td>
+		</tr>
+		<foreach name="data" item="vo">
+			<tr>
+				
+					<td>{$vo.ERG_group}</td>
+					<td>{$vo.ERG_name}</td>
+					<td>
+						<a href="__CONTROLLER__/editERG/ERG_group/{$vo.ERG_group}">修改</a>
+						<a href="__CONTROLLER__/delERG/ERG_group/{$vo.ERG_group}" style="margin-left: 15px;">删除</a>
+					</td>
+				
+			</tr>
+		</foreach>
+	</table>
+</block>

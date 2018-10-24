@@ -1,0 +1,114 @@
+<extend name="Public::layout" />
+<block name="head">
+	<title>指导评分</title>
+</block>
+<block name="main">
+<input type="hidden" name="sid" value="1" id="sid"/>
+<header>
+	<hgroup>
+		<h1>指导评分</h1>
+	</hgroup>
+</header>
+
+<div class="container">
+	<br />
+<a href="javascript:void(0);" data-url="{:U('Score/addGgrade')}" class="addGgrade" ><button class="button blue">指导教师评分</button></a>
+<button class="deleted">删除评分</button>
+
+	
+		<table id="myTable" class="table-responsive">
+			<tr>
+				<td>选择</td>
+				<td>课题名</td>
+				<td>学生</td>
+				<td>答辩稿</td>
+				<td>项1</td>
+				<td>项2</td>
+				<td>项3</td>
+				<td>项4</td>
+				<td>项5</td>
+				<td>评语</td>
+				<td>答辩状态</td>
+			</tr>
+			<foreach name="score" item="v">
+			<tr class="text-center">
+				<td><input type="checkbox" value="{$v.Snum}" name="Snum" class="check"/></td>
+				<td>{$v.Cname}</td>
+				<td>{$v.Sname}</td>
+				<td>答辩稿</td>
+				<td>{$v.Ggrade1}</td>
+				<td>{$v.Ggrade2}</td>
+				<td>{$v.Ggrade3}</td>
+				<td>{$v.Ggrade4}</td>
+				<td>{$v.Ggrade5}</td>
+				<td>{$v.Gtext}</td>
+				<td>{$v.defense_status}</td>
+			</tr>
+			</foreach>
+		</table>
+	</div>
+</div>
+<script src="__PUBLIC__/public/js/jquery.min.js"></script>
+<script>
+	$(function(){
+		    var _this;
+			$('.table-responsive').find('input[type=checkbox]').bind('click',function(){
+				$('.table-responsive').find('input[type=checkbox]').not(this).prop("checked",false);
+		        var _this=$(this).prop("value");
+		        checkedOnlyStatus(_this); 
+			})
+		
+		//选中课题的操作
+			function checkedOnlyStatus(sid){
+				$.ajax({
+					type:"post",
+					url:"{:U('Score/showGgrade')}",
+					dataType:"json",
+					data:{Snum:sid}
+					})
+			}
+		
+		//添加分数提交
+		$(".addGgrade").click(function(){
+			if($(".check").is(':checked')){
+				
+				window.location.href=$(this).attr('data-url');
+			}else{
+				alert("没有选中课题");
+			}
+			
+		});
+		
+		function delComfirm(sid){
+		var msg = "您真的确定要删除吗？";
+		if (confirm(msg)==true){
+			$.ajax({
+				type:"post",
+				url:"{:U('Score/deletedGgrade')}",
+				dataType:"json",
+				data:{sid:sid},
+				success:function(data){
+					alert(data);
+					location.reload();
+				}
+			})
+		}else{
+			return false;
+		}
+	}
+	
+	//删除分数
+	$(".deleted").click(function(){
+		if($(".check").is(':checked')){
+			var sid = $(".check:checked").val();
+			delComfirm(sid);
+		}else{
+			alert("没有选中课题");
+		}
+	});
+
+
+		
+	});
+</script>
+</block>

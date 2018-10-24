@@ -1,0 +1,51 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题申请</title>
+</block>
+<block name="main">
+     <header>
+					<hgroup>
+						<h1>选择课题</h1>
+						<h2>教师一览</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+					<table id="myTable">
+						<thead>
+							<tr>
+								<td>教研室</td>
+								<td>老师工号</td>
+								<td>老师姓名</td>
+								<td>性别</td>
+								<td>系别</td>
+								<td>研究方向</td>
+								<td>职称</td>
+								<td>联系方式</td>
+								<td>QQ</td>
+								<td>电子邮箱</td>
+							</tr>
+						</thead>
+						
+						<volist name="apply" id="v">
+						<form method="get" action="__ACTION__">
+						<tr>
+						    <td>{$v.ERG_name}</td>
+							<td>{$v.Tnum}</td>
+							<td><a href="__CONTROLLER__/topic/Tnum/{$v.Tnum}">{$v.Tname}</a></td>
+							<td>{$v.sex}</td>
+							<td>{$v.depart}</td>
+							<td>{$v.direction}</td>
+							<td>{$v.Title}</td>
+							<td>{$v.phone}</td>
+							<td>{$v.qq}</td>
+							<td>{$v.email}</td>
+						</tr> 
+						</form>
+						</volist>
+						
+						
+					</table>
+				</div>
+</block>
+				
+		

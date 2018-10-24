@@ -1,0 +1,123 @@
+<extend name="Public::layout" />
+<block name="head">
+	<title>添加分组</title>
+</block>
+<block name="head">
+	<style type="text/css">
+		input,select,p{
+			
+			margin-left: 15px;
+			margin-top: 15px;
+			font-size: 15px;
+		}
+		input{
+			width: 3%;
+		}
+		#member{
+			margin-left: 45px;
+			margin-top: 15px;
+			font-size: 15px;
+		}
+		
+	</style>
+</block>
+<block name="main">
+	<header>
+		<h1>新增分组</h1>
+	</header>
+	
+	<section>
+		<form>
+		<p>请选择教研室：</p>
+		    <select id="ERG" name="ERG_group">
+		    	<option>   </option>
+		        <foreach name="ERG" item="vo">
+					<option value="{$vo.ERG_group}">{$vo.ERG_name}</option>
+				</foreach>
+			</select>
+			
+		<p>请选择组长：</p>
+		
+			<select id="admin">
+				
+				
+			</select>
+			<p>请选择组员：</p>
+			<div id="member">
+				
+			</div>
+			<p>请选择时间</p>
+			<input type="date" id="date" style="width:20%"/><input type="time" id="time" style="width:20%"/>
+			<br />
+			<p>请选择教室</p>
+			<input type="text" id="Dclass" style="width:20%"/><br />
+			<button id="sub">确认分组</button>
+		</form>
+	</section>
+	
+	<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>
+	<!-- 以下为ajax功能 根据选择的教研室显示对应教师 -->	
+	<script type="text/javascript">		
+		$(function(){
+			$("#ERG").bind("change",function(){
+				var ERG_name = document.getElementById('ERG').value;
+				$.ajax({
+					type : "POST",
+					url  : '__CONTROLLER__/returnInfo' ,
+					data : {"ERG_group":ERG_name},
+					dataType : "json",
+					success:function(data){
+						$("#admin").empty();
+						$("#member").empty();
+						for (var i = data.length - 1; i >= 0; i--) {
+						   $("#admin").prepend('<option value="' + data[i].Tnum + '">' + data[i].Tname + '</option>');
+						   $("#member").prepend(data[i].Tname + '<input type="checkbox" name="Tnum" value="'+ data[i].Tnum + '"/>');
+						};
+						
+					},
+				});
+		    })
+			
+			
+			
+		})	
+	</script>
+
+     <!-- 提交分组 -->
+     <script type="text/javascript">
+     	$(function(){
+     		$("#sub").bind('click',function(){
+     			var adminNum = $("#admin option:selected").val();
+     			var adminName = $("#admin option:selected").text();
+     			var ERG_group = $("#ERG option:selected").val();
+     			var time      = $("#date").val();
+     			var status    = {$status};
+     			time          = time.concat(" ");
+     			time     += $("#time").val();
+     			var Dclass    = $("#Dclass").val();
+     			var teacherArray = [];
+     			obj = $('input:checkbox:checked').each(
+     				function(){
+     					teacherArray.push($(this).val());
+     				}
+     			);
+     			teacherArray.push(adminNum);
+     			var teacher = teacherArray.join(",");
+     			$.ajax({
+     				type:"post",
+     				url:"__CONTROLLER__/addTeam",
+     				async:true,
+     	            data:{"adminNum":adminNum,"adminName":adminName,"teacher":teacher,"ERG_group":ERG_group,"time":time,"class":Dclass,"status":status},
+     				success:function(data){
+     					 alert(data);
+     					 window.location.href='__CONTROLLER__/index';
+     				},
+     				error:function(data){
+     					alert(data);
+     				},
+     			});
+     			return false;
+     		})
+     	})
+     </script>
+</block>

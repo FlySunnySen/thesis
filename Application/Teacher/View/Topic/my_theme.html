@@ -1,0 +1,71 @@
+<extend name="Public::layout" />
+<block name="head">
+<title>我的课题</title>
+<link rel="stylesheet" href="__PUBLIC__/teacher/css/style.css" media="all" />
+
+</block>
+<block name="main">
+	
+	<header>
+		<hgroup>
+		
+		    <h1>我的课题列表</h1>
+						
+		</hgroup>
+	</header>
+
+<div class="content">
+	
+	
+		
+			<a href="__CONTROLLER__/add/Cnum/{$tnum}"><button>添加课题</button></a>
+		
+		    <a href="__MODULE__/Score/importGrage"><button>导出成绩单</button></a>
+		    
+            <table id="myTable">
+				<thead>
+					<tr>
+						<td>指导老师</td>
+						<td>课题名</td>
+						<td>类别</td>
+						<td>来源</td>
+						<td>学生</td>
+						<td>任务分派</td>
+						<td>传任务书</td>
+						<td>传答辩稿</td>
+						<td>成绩单</td>
+						<td>删除</td>
+					</tr>
+				</thead>
+				<foreach name="topic" item="v">
+				<tr>
+					<td>{$v.Tname}</td>
+					<td>{$v.Cname}</td>
+					<td>{$v.Ctype}</td>
+					<td>{$v.Csource}</td>
+					<td>{$v.Sname}</td>
+					<td>
+						<a href="__CONTROLLER__/giveStu/Cnum/{$v.Cnum}/Tnum/{$v.Tnum}">分配学生</a>
+					</td>
+					<td>
+						<a href="__CONTROLLER__/upload_taskbook/Snum/{$v.Snum}">跟新任务书</a>
+					</td>
+					<td>
+						<a href="__CONTROLLER__/upload_denfense_draft/Snum/{$v.Snum}">跟新答辩稿</a>
+					</td>
+					<td>
+						<a href="__CONTROLLER__/grade/Snum/{$v.Snum}">成绩单</a>
+					</td>
+					<td>
+						<a href="__CONTROLLER__/delTopic/Cnum/{$v.Cnum}">
+							<button class="button blue" style="color:white;height: 25px;padding-top: 2px;">删除</button>
+						</a>
+						
+					</td>
+				</tr>
+				</foreach>
+			</table>
+	
+	
+</div>
+</block>

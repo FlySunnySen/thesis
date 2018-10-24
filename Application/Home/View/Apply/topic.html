@@ -1,0 +1,46 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>课题申请</title>
+</block>
+<block name="main">
+				<header>
+					<hgroup>
+						<h1>课题一览</h1>
+						<h2>选择课题</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+					<table id="myTable">
+						<thead>
+							<tr>
+							    
+							 
+								<td>课题名</td>
+								<td>课题类型</td>
+								<td>课题介绍</td>
+								<td>申请理由</td>
+								<td>操作</td>
+							</tr>
+						</thead>
+						
+						<volist name="topicx" id="v">
+							<form method="post" action="__ACTION__">
+								<tr>
+								    <input type="hidden" id="Tnum" name="Tnum" value="{$v.Tnum}" readonly="readonly">
+								   <input type="hidden" id="Cnum" name="Cnum" value="{$v.Cnum}" readonly="readonly">
+								    <td>{$v.Cname}</td>
+									<td>{$v.Ctype}</td>
+									<td>{$v.Ctext}</td>
+									<td><textarea type="text" id="reason" name="reason" value=""></textarea></td>
+									<td><input type="submit" value="申请" onclick="this.form.submit()"></td>
+								</tr> 
+						
+						  </form>
+						  
+						
+						</volist>
+						
+						
+					</table>
+				</div>
+</block>

@@ -1,0 +1,49 @@
+<extend name="Public::layout" />
+<block name="head">
+	<title>{$status}辩分组管理</title>
+</block>
+<block name="main">
+	<header>
+		<hgroup>
+		
+		    <h1>{$status}辩分组管理  </h1>
+				<h2>未分配的学生人数：{$count}</h2>		
+		</hgroup>
+	</header>
+	
+	
+	<div class="content">
+					<a href="__CONTROLLER__/add/status/{$status}"><button class="green" style="margin-bottom: 10px;">新增分组</button></a>
+					<table id="myTable">
+						<thead>
+							<tr>
+								<td>分组编号</td>
+								<td>组长</td>
+								<td>分组成员</td>
+								<td>答辩时间</td>						
+								<td>答辩教室</td>
+								<td>答辩学生</td>
+								<td>操作</td>
+							</tr>
+						</thead>
+						<foreach name="defenseinfo" item="vo">
+						<tr>
+							<td>{$vo.defense_group}</td>
+							<td>{$vo.admin}</td>
+							<td>{$vo.TEA}</td>
+							<td>{$vo.time}</td>
+							<td>{$vo.class}</td>
+							<td>{$vo.STU}</td>
+							<td>
+								<a href="__CONTROLLER__/editTeam/defense_group/{$vo.defense_group}">修改</a>
+								<a href="__CONTROLLER__/delectTeam/defense_group/{$vo.defense_group}" style="margin-left: 15px;">删除</a>
+								<a href="__CONTROLLER__/showAddStudent/defense_group/{$vo.defense_group}/year/{$vo.year}/ERG_group/{$vo.ERG_group}/status/{$status}" style="margin-left: 15px;">分配学生</a></td>
+						</tr>
+						</foreach>
+					</table>
+				</div>
+		<div class="page">
+			{$page}
+		</div>
+	
+</block>

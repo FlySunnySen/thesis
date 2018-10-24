@@ -1,0 +1,54 @@
+<extend name="Public::layout"/>
+<block name="head">
+	<title>修改信息</title>
+</block>
+<block name="main">
+
+				<header>
+					<hgroup>
+						<h1>修改信息</h1>
+						<h2>学生姓名:{$Think.session.student.name}</h2>
+					</hgroup>
+				</header>
+				<div class="content">
+				<form method="post"  action="__ACTION__">
+				<volist name="student" id="v">
+				
+					<table id="myTable">
+						<tr>
+							<td>学号：</td>
+							<td><input type="text" name="Snum" id="Snum" value="{$v.Snum}"  readonly="readonly"></td>
+						</tr>
+						<tr>
+							<td>姓名</td>
+							<td><input type="text" name="Sname" id="Sname" value="{$v.Sname}" /></td>
+						</tr>
+						<tr>
+							<td>性别</td>
+							<td><input type="text" name="sex" id="sex" value="{$v.sex}" /></td>
+						</tr>
+						<tr>
+							<td>系别</td>
+							<td><input type="text" name="class" id="class" value="{$v.class}" /></td>
+						</tr>
+						<tr>
+							<td>联系方式</td>
+							<td><input type="text" name="phone" id="phone" value="{$v.phone}" /></td>
+						</tr>
+						<tr>
+							<td>电子邮箱</td>
+							<td><input type="text" name="email" id="email" value="{$v.email}" /></td>
+						</tr>
+						<tr>
+							<td>QQ</td>
+							<td><input type="text" name="qq" id="qq" value="{$v.qq}" /></td>
+						</tr>
+					</table>
+					</volist>
+					<br />
+					
+					<input type="submit" value="保存信息" />
+					<input type="reset" value="取消修改" />
+				</form>
+				</div>
+</block>

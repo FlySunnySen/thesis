@@ -1,0 +1,39 @@
+﻿<extend name="Public:layout" />
+<block name="head">
+	<title>首页</title>
+</block>
+<block name="main">
+		
+				<header>
+					<hgroup>
+						<h1>公告一览</h1>
+						
+					</hgroup>
+				</header>
+				<div class="content">
+					<table id="myTable">
+						<thead>
+							<tr>
+								<td>公告编号</td>
+								<td>公告标题</td>
+								<td>发送时间</td>						
+							
+							</tr>
+						</thead>
+						<foreach name="new" item="vo">
+						<tr>
+							<td>{$vo.infonum}</td>
+							<td><a href='__MODULE__/information/show/infonum/{$vo.infonum}'>{$vo.infotitle}</a></td>
+							<td>{$vo.infotime}</td>
+						
+							
+						</tr>
+						</foreach>
+					</table>
+				</div>
+		
+
+		<script src="__PUBLIC__/teacher/js/jquery.min.js"></script>
+	
+	
+	</block>
